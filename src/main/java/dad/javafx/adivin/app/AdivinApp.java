@@ -93,11 +93,8 @@ public class AdivinApp extends Application {
 	}
 
 	private boolean mayorOmenor(int numero) {
-		boolean esMenor = false;
-		if (numero < numeroAleatorio) {
-			esMenor = true;
-		}
-		return esMenor;
+	
+		return  (numero < numeroAleatorio ? true:false);
 	}
 
 	public static void main(String[] args) {
